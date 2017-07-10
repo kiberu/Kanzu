@@ -1,0 +1,224 @@
+.menu{
+	background-color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+}
+
+.menu .logo img{
+	height: 100px;
+	position: absolute;
+}
+
+.menu .tweet{
+	position: absolute;
+	left: 20%;
+	top: 100%;
+}
+
+.menu .tweet a{
+	color: black;
+}
+
+.menu ul{
+	/*list-style-image: url("../../assets/images/dot.png");*/
+}
+
+.menu ul li{
+	float: right;
+	display: block;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.menu ul li img{
+	margin: 5px;
+}
+
+.menu ul li a{
+	color: white;
+	border-right-width: 3px;
+    border-right-style: solid;
+    -webkit-border-image:-webkit-gradient(linear, 0 0, 0 100%, from(#191919), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(#191919, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(#191919, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image: -o-linear-gradient(#191919, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, #191919, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.menu ul li a:hover{
+	color: #5ba009;
+	text-decoration: none;
+}
+
+
+.call .login{
+	text-align: right;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.call .numb{
+	text-align: left;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.heading{
+	background: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#e4e4e4, white, #e4e4e4); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e4e4e4, white, #e4e4e4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e4e4e4, white, #e4e4e4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e4e4e4, white, #e4e4e4); /* Standard syntax */
+	position: relative;
+}
+
+.heading h1 span{
+	color: #5ba009;
+}
+
+.heading img{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+
+.heading button{
+	background: #5ba009; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient#5ba009, #468304); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#5ba009, #468304); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#5ba009, #468304); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#5ba009, #468304); /* Standard syntax */
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.bound{
+	height: 30px;
+	background: #161616; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#161616, #191919); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#161616, #191919); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#161616, #191919); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#161616, #191919); /* Standard syntax */
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+.feature{
+	background-color: #141414;
+	border-style: solid;
+	border-color: #191919; 
+	border-width: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feature .sect {
+	border-right-width: 3px;
+    border-right-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(#191919), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(#191919, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(#191919, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(#191919, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to bottom, #191919, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.feature h2{
+	color: white;
+}
+
+.feature a{
+	color: white;
+	text-decoration: underline;
+}
+
+.feature a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.feature p{
+	color: #8d8d8d;
+}
+
+.feature img{
+	height: 80px;
+	width: 80px;
+	padding: 10px;
+	float: left;
+}
+
+.mission{
+	font-size: 16px;
+	background: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#e4e4e4, white, #e4e4e4); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e4e4e4, white, #e4e4e4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e4e4e4, white, #e4e4e4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e4e4e4, white, #e4e4e4); /* Standard syntax */
+}
+
+.mission .left-side{
+	border-right-width: 3px;
+    border-right-style: solid;
+    -webkit-border-image:-webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(#e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(#e4e4e4, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image: -o-linear-gradient(#e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, #e4e4e4, rgba(0, 0, 0, 0)) 1 100%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.mission h2{
+	margin-bottom: 20px;
+}
+
+.mission img{
+	height: 200px;
+	width: 200px;
+	float: left;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 20px;
+}
+
+.mission ul{
+	list-style-image: url("../../assets/images/arrow.png");
+}
+
+.mission ul li{
+	border-bottom-style: solid;
+	border-bottom-color: #f3f3f3;
+	margin-bottom: 10px; 
+}
+
+.mission ul li a{
+	color: #81ddf4;
+}
+
+.mission ul li a:hover{
+	color: #81ddf4;
+	text-decoration: underline;
+}
+
+.footer {
+	font-size: 16px;
+	background-color: #111111;
+	color: #8f8f8f;
+	text-align: center;
+}
+
+.space-30{
+	height: 30px;
+}
+
+.space-15{
+	height: 15px;
+}

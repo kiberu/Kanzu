@@ -1,0 +1,328 @@
+body{
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.heading{
+	background: #f6ab00; /* For browsers that do not support gradients */
+	/* Safari 5.1 to 6.0 */
+	background: -webkit-radial-gradient(60% 55%, closest-side, #f8c700,  #f6ab00); 
+	/* For Opera 11.6 to 12.0 */
+	background: -o-radial-gradient(60% 55%, closest-side, #f8c700,  #f6ab00);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-radial-gradient(60% 55%, closest-side, #f8c700,  #f6ab00);
+	/* Standard syntax */
+	background: radial-gradient(closest-side at 60% 55%, #f8c700,  #f6ab00);
+
+	height: 75px;
+	border-bottom-style: solid;
+	border-bottom-width: 5px; 
+	border-bottom-color: #810c29;
+}
+
+.heading ul{
+	list-style: none;
+	margin-top: 10px;
+}
+
+.heading ul .active{
+	border-radius: 50px;
+    background: #7a4600;
+}
+
+.heading ul .active a{
+	color: #f8c700;
+}
+
+.heading ul li{
+	display: block;
+	float: left;
+    width: 70px;
+    text-align: center;
+    margin: 15px;
+}
+
+.heading ul li:hover {
+	border-radius: 50px;
+    background: #7a4600;
+    color: transparent;
+}
+
+.heading ul li a{
+	color: #4f2100;
+	text-decoration: none;
+}
+
+.heading ul li a:hover{
+	color: #f8c700;
+}
+
+.intro{
+	border-top-style: solid;
+	border-top-color: #5f0d24;
+
+	background: #2a0610; /* For browsers that do not support gradients */
+	/* Safari 5.1 to 6.0 */
+	background: -webkit-radial-gradient(60% 55%, closest-side, #3f0919,  #2a0610); 
+	/* For Opera 11.6 to 12.0 */
+	background: -o-radial-gradient(60% 55%, closest-side, #3f0919,  #2a0610);
+	/* For Firefox 3.6 to 15 */
+	background: -moz-radial-gradient(60% 55%, closest-side, #3f0919,  #2a0610);
+	/* Standard syntax */
+	background: radial-gradient(closest-side at 60% 55%, #3f0919,  #2a0610);
+
+	color: #e6dfc2;
+	font-size: 20px;
+}
+
+.intro a{
+	border-radius: 50px;
+	background: #f6ab00; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f8c700, #f6ab00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f8c700, #f6ab00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f8c700, #f6ab00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f8c700, #f6ab00); /* Standard syntax */
+    color: #815100;
+}
+
+.intro img{
+	height: 100px;
+}
+
+.intro span{
+	color: #f6ab00;
+}
+
+.intro-space{
+	height: 30px;
+	background: #ab1543; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#ab1543, #600a23, #ab1543); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#ab1543, #600a23, #ab1543); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#ab1543, #600a23, #ab1543); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#ab1543, #600a23, #ab1543); /* Standard syntax */
+  	border-bottom-style: solid;
+  	border-bottom-width: 5px;
+	border-bottom-color: #f0ad00;
+}
+
+.main{
+	background-color: #e6dfc2;
+}
+
+.main .post{
+	background-color: #ebe6d2;
+	position: relative;
+	font-size: 16px;
+}
+
+.main .post p, h2, #meta{
+	margin-left: 30px;
+}
+
+.main .post p span{
+	color: #2f0712;
+	font-weight: bold;
+}
+
+#meta, #tags{
+	color: grey;
+}
+
+#photo{
+	margin-top: 80%;
+	width: 100%;
+}
+
+#social {
+	width: 30px;
+	height: 30px;
+}
+
+.title{
+	color: #2f0712;
+}
+.title:hover{
+	text-decoration: underline;
+	color: #2f0712;
+}
+
+.main .post img{
+	margin: 30px;
+	width: 95%;
+}
+
+.main .post #but{
+	background-color: #f6ab00;
+	color: #6c3900;
+}
+
+.ribbon{
+	position: absolute;
+	top: 5%;
+	left: -16%;
+	width: 150px;
+	background-color: #f6ab00;
+	color: #6c3900;
+	text-align: center;
+	font-size: 24px;
+}
+
+.ribbon span{
+	margin: 15px; 
+	color: white;
+}
+
+.search h4, form{
+	margin-left: 20px;
+	width: 100%;
+}
+
+.search h4 img{
+	width: 50px;
+}
+
+.search h4{
+	font-weight: bold;
+	font-size: 24px;
+	color: #2f0712;
+}
+
+.search form input{
+	border-radius: 30px;
+	width: 90%;
+	background-color: #c2b28e;
+	color: #2f0712;
+}
+
+.side_bar{
+	background-color: #3b0d1a;
+	border-radius: 10px;
+}
+
+.side_bar h3,h5{
+	margin: 20px;
+	color: #dac4b6;
+}
+
+.side_bar ul{
+	list-style: none;
+	padding: 0;
+	margin: 20px;
+	width: 100%;
+}
+
+.side_bar ul li{
+	margin: 10px;
+	width: 100%;
+}
+
+.side_bar ul li .circle{
+	background: #df4928;
+    border-radius: 50px;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    width: 50px;
+    /*display: table;*/
+    text-align: center;
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+.side_bar ul li a:hover{
+	text-decoration: underline;
+}
+
+.side_bar ul li a{
+	color: #dfbd66;
+	text-decoration: none;
+}
+
+.work img{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: auto;
+}
+
+.work div{
+	padding-left: 20px;
+}
+
+.footer-1{
+	background-color: #14050a;
+	height: 200px;
+}
+
+.footer-1 h4{
+	color: #dac4b6;
+	font-size: 24px;
+}
+
+.footer-1 ul{
+	list-style: none;
+	padding: 0;
+}
+
+.footer-1 ul li a{
+	color: #dfbd66;
+	text-decoration: none;
+}
+
+.footer-1 ul li a:hover{
+	text-decoration: underline;
+}
+
+.footer-1 ul li{
+	margin-bottom: 10px;
+}
+
+.friends img{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin: auto;
+}
+
+.footer-1 .logo{
+	vertical-align: middle;
+	line-height: 150px;
+}
+
+.footer-2{
+	background-color: #100106;
+	height: 40px;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.footer-2 ul{
+	list-style: none;
+}
+
+.footer-2 ul li{
+	float: left;
+	width: 100px;
+}
+
+.footer-2 ul li a{
+	color: #dfbd66;
+	text-decoration: none;
+}
+
+.footer-2 ul li a:hover{
+	text-decoration: underline;
+}
+
+.footer-2 p{
+	font-size: 15px;
+	color: white;
+}
+
+.space-30{
+	height: 30px;
+}
+
+.space-15{
+	height: 15px;
+}
+
