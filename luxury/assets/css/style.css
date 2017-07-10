@@ -1,0 +1,189 @@
+body{
+	background: url("../../assets/images/bg.jpg");
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.social-icons{
+	height: 20px;
+	margin: 4px;
+}
+.navbar{
+	height: 100%;
+}
+
+#wrapper{
+	border: 0;
+	background-color: transparent;
+}
+
+
+#wrapper:after{
+content:".";
+display:block;
+clear:both;
+visibility:hidden;
+}
+
+.navbar-brand img{
+	max-height: 150px;
+	max-width: 150px;
+}
+
+.nav{
+	margin-top: 20px;
+	width: 100%;
+	background-color: #252525;
+	border-style: solid;
+    border-color: #313131;
+    border-width: 1px;
+    text-align: center;
+    list-style-type: circle;
+}
+
+.nav li{
+	display: block;
+	/*margin-top: 20px;*/
+	width: 16%;
+	height: 100%;
+	border-left-style: solid;
+    border-left-color: #313131;
+    border-left-width: 1px;
+}
+ .nav li a{
+ 	width: 100%;
+	height: 100%;
+	display: block;
+ }
+
+.nav li:active{
+ 	background-color: #df4928;
+}
+
+.nav li:hover{
+ 	background-color: #df4928;
+ 	color: white;
+}
+
+.navbar-collapse{
+	width: 80%;
+}
+
+ .menu{
+ 	width: 100%; height: 100%;
+ 	background-color: white;
+ }
+
+.main{
+	background-color: #df4c2b;
+	color: white;
+}
+
+.main p{
+	font-size: 15px;
+}
+
+.btn-black{
+	background-color: black;
+	color: white;
+}
+
+.feature{
+	color: grey;
+}
+
+.feature a{
+	color: white;
+	text-decoration: underline;
+}
+
+.feature p{
+	color: white;
+}
+
+.feature a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.feature h2, h3, h4{
+	color: white;
+}
+
+.serv{
+	list-style-image: url("../../assets/images/chat.png");
+}
+
+.serv li a{
+	color: grey;
+	text-decoration: underline;
+}
+
+.serv li a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+.badge{
+	background-color: #df4928;
+ 	color: white;
+ 	font-size: 50px;
+}
+
+.circle {
+    background: #df4928;
+    border-radius: 50px;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    width: 50px;
+    /*display: table;*/
+    text-align: center;
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+.well{
+	background-color: #212121;
+	border: 0;
+}
+
+.well p{
+	color: grey;
+}
+
+.footer{
+	color: grey;
+	background-color: #232323;
+}
+
+.footer img{
+	width: 200px;
+}
+
+.footer form #input{
+	background-color: #212121;
+	border-style: inset;
+    border-color: #313131;
+    border-width: 2px;
+}
+
+.footer form #but{
+	background-color: #df4928;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+}
+
+.footer a{
+	color: #df4928;
+	text-decoration: underline;
+}
+
+.space-30{
+	height: 30px;
+}
+
+.space-15{
+	height: 15px;
+}
+

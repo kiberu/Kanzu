@@ -1,0 +1,117 @@
+body
+{
+	font-family: "Franklin Gothic Book", AppleGothic, sans-serif;
+}
+
+.nav-border {
+	border-bottom-color: #2a2a2a;
+}
+
+.menu{
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+}
+
+.logo{
+	font-size: 35px;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.logo:hover{
+	font-size: 35px;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #ff6761;
+}
+
+#nav_list{
+	text-decoration: none;
+	color: white;
+}
+
+#nav_list:hover {
+	text-decoration: none;
+	color: #ff6761;
+}
+
+#nav_list:active {
+	text-decoration: none;
+	color: #ff6761;
+}
+
+.title{
+	background-color: #2a2a2a;
+	text-align: center;
+	color: white;
+	color: #a2a2a2;
+
+}
+
+.title p{
+	font-size: 60px;
+	font-weight: normal;
+}
+
+.title h2{
+	font-size: 35px;
+}
+
+
+.title p span{
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+
+}
+
+.btn-style{
+	background-color: #ff6761;
+	color: white;
+}
+
+.main {
+	text-align: center;
+}
+
+.main span{
+	font-size: 40px;
+}
+
+.main p{
+	font-size: 15px;
+}
+
+.main h4{
+	font-weight: bold;
+}
+
+.feature{
+	background-color: #2a2a2a;
+	text-align: center;
+	color: white;
+	height: 300px;
+	
+}
+
+.feature h4{
+	color: #a2a2a2;
+	
+}
+
+.feature h4 a{
+	color: #ff6761;
+}
+
+.feature p img{
+	width: 40px;
+}
+
+.space-60{
+	height: 60px;
+}
+
+.space-30{
+	height: 30px;
+}
